@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ReelForge – Privacy Policy</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<p><a href="index.html">← ReelForge</a></p>
+<h1>Privacy Policy</h1>
+<p class="muted">Last updated: 10 November 2026</p>
+
+<p>ReelForge is a personal tool. Kyriacos Sakkas uses it to upload the videos he makes to his own social media accounts. Its only user is also the owner of every connected account, so the only personal data it handles is his own.</p>
+
+<h2>What data it stores</h2>
+<ul>
+  <li><strong>Access tokens</strong> from each connected platform (TikTok, YouTube, Instagram, Facebook, Threads). They let the app upload videos to his accounts.</li>
+  <li><strong>Basic profile details</strong> of each connected account: display name, @username, profile picture link, and the platform's account id. These are only used to show which account is connected.</li>
+  <li><strong>Post records</strong>: which video went to which account, when, and the link or status the platform returned.</li>
+</ul>
+<p>ReelForge does not collect data about viewers, followers or anyone else. It does not use cookies for tracking, analytics or ads. The only cookie is the login session for its own dashboard.</p>
+
+<h2>How it is stored</h2>
+<p>Everything is kept on his own server, in a private network (Tailscale) that only his devices can reach. Tokens and app secrets are encrypted with AES-256-GCM before they are saved.</p>
+
+<h2>How it is used</h2>
+<p>Only to upload his own approved videos to his own accounts, and to check whether an upload worked. On TikTok the app uses <code>user.info.basic</code> (and <code>user.info.profile</code> for the @username) to show the connected account, and <code>video.upload</code> to send a video to his TikTok inbox as a draft. If Direct Post is turned on later, it uses <code>video.publish</code> to post to his own profile with the privacy and interaction settings he chooses.</p>
+
+<h2>Sharing</h2>
+<p>No data is sold, rented or shared with anyone. It is only sent to the platform the video is being uploaded to.</p>
+
+<h2>Deletion</h2>
+<p>When an account is disconnected in ReelForge ("Disconnect"), its tokens and profile details are deleted at once. Access can also be removed at any time in the platform's own settings (on TikTok: Settings and privacy → Security → Manage app permissions). Access tokens that are not refreshed run out by themselves (TikTok: 24 hours, refresh token 365 days).</p>
+
+<h2>Children</h2>
+<p>ReelForge is not meant for and does not collect data from children.</p>
+
+<h2>Changes</h2>
+<p>This policy may be updated. The date at the top shows the latest version.</p>
+
+<h2>Contact</h2>
+<p>Kyriacos Sakkas, Cyprus: <a href="mailto:kvesakkas@gmail.com">kvesakkas@gmail.com</a></p>
+</main>
+</body>
+</html>
